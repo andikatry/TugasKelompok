@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.left-column {
+    flex: 30%;
+    padding: 30px;
+    background-color: #008080;
+    color: white;
+}
+
+.right-column {
+    flex: 70%;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #008080;
+    font-size: 20px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.left-column h2 {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.left-column h3 {
+    color: white;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.left-column a {
+    color: #bdc3c7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid white;
+    margin: 20px 0;
+}
+
+.job-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.job-period {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.skill {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.left-column .skill {
+    background-color: #214B53;
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 3px solid white;
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+}
